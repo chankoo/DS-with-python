@@ -58,7 +58,7 @@ class Stack:
         cur_node = self.head
         while cur_node.next is not None:
             cur_node = cur_node.next
-            print(cur_node.data)
+        print(cur_node.data)
 
 if __name__ == '__main__':
     s = Stack()
